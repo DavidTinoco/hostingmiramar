@@ -9,7 +9,7 @@
   - Darse de baja, eliminando todo el contenido del usuario
   - El usuario podrá cambiarse la contraseña de su cuenta o la de su usuario en la base de datos MySQL.
 
-Automatizado:
+### Automatizado:
 
 - Si el usuario o nombre de dominio ya existen se le informará mediante un mensaje en la página web.
 - Si el usuario y el nombre de dominio están disponibles, se creará un volumen logico de 100MB montado en un directorio personal, Ej: /srv/ftp/ftp_user/www/
@@ -22,6 +22,6 @@ Automatizado:
 
 - Y una zona de resolución inversa para el direccionamiento de todos los usuarios.
 
-OPCIONAL:
+### OPCIONAL:
 
 - Darle la posibilidad al usuario desde el panel web, de crear un wordpress con un click!
