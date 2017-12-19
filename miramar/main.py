@@ -16,7 +16,7 @@ app = SessionMiddleware(app(), session_opts)
 # index page
 @route('/')
 def index():
-	return template('views/index.tpl')
+	return template('views/login.tpl')
 
 # Static files
 @route('/static/<filepath:path>')
