@@ -28,3 +28,7 @@ def dnscreatezonefile(domain):
         file.write('impala	IN	A	172.22.200.150\n')
         file.close()
 
+def dnsdropzone(domain):
+    try:
+	os.remove('/etc/bind/zones/david.miramar.zone')
+	file = open(/etc)
