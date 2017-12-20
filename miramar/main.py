@@ -18,6 +18,14 @@ app = SessionMiddleware(app(), session_opts)
 def index():
 	return template('views/login.tpl')
 
+@route('/register')
+def register():
+    return template('views/register.tpl')
+
+@route('/index')
+def logged():
+    return template('views/index.tpl')
+
 # Static files
 @route('/static/<filepath:path>')
 def server_static(filepath):
