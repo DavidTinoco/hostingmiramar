@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-% include('header.tpl', title='Hosting Miramar')
+% include('header.tpl', title='Login')
 
   <body>
 
@@ -12,7 +12,7 @@
 	  <div id="login-page">
 	  	<div class="container">
 
-		      <form class="form-login" action="index.html">
+		      <form class="form-login" action="/index">
 		        <h2 class="form-login-heading">sign in now</h2>
 		        <div class="login-wrap">
 		            <input type="text" class="form-control" placeholder="User ID" autofocus>
@@ -34,7 +34,7 @@
 		            </div>
 		            <div class="registration">
 		                Don't have an account yet?<br/>
-		                <a class="" href="#">
+		                <a class="" href="/register">
 		                    Create an account
 		                </a>
 		            </div>
