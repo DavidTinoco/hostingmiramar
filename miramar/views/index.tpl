@@ -59,27 +59,204 @@
                       </div>
                       <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="tile-stats">
-                          <div class="icon"><i class="fa fa-globe"></i>
+                          <div class="icon"><i class="fa fa-database"></i>
                           </div>
-                          <div class="count">179</div>
+                          <div class="count">1</div>
 
-                          <h3>New Sign ups</h3>
-                          <p>Lorem ipsum psdea itgum rixt.</p>
+                          <h3>Bases de datos</h3>
+                          <p>Bases de datos disponibles</p>
                         </div>
                       </div>
                       <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="tile-stats">
                           <div class="icon"><i class="fa fa-check-square-o"></i>
                           </div>
-                          <div class="count">179</div>
+                          <div class="count">5</div>
 
-                          <h3>New Sign ups</h3>
-                          <p>Lorem ipsum psdea itgum rixt.</p>
+                          <h3>Páginas web</h3>
+                          <p>Páginas web disponibles</p>
                         </div>
                       </div>
                     </div>
 
                     <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <!-- Subdomains -->
+              <div class="col-md-8 col-sm-8 col-xs-12">
+                 <div class="x_panel">
+                   <div class="x_title">
+                     <h2>Subdomains</h2>
+                     <ul class="nav navbar-right panel_toolbox">
+                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                       </li>
+                       <li class="dropdown">
+                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                         <ul class="dropdown-menu" role="menu">
+                           <li><a href="#">Settings 1</a>
+                           </li>
+                           <li><a href="#">Settings 2</a>
+                           </li>
+                         </ul>
+                       </li>
+                       <li><a class="close-link"><i class="fa fa-close"></i></a>
+                       </li>
+                     </ul>
+                     <div class="clearfix"></div>
+                   </div>
+                   <div class="x_content">
+
+                     <p>En la siguiente lista puede ver y administrar sus subdominions contratados</p>
+
+                     <!-- start project list -->
+                     <table class="table table-striped projects">
+                       <thead>
+                         <tr>
+                           <th style="width: 5%">#</th>
+                           <th style="width: 50%">Subdominio</th>
+                           <th>Estado</th>
+                           <th style="width: 30%">Acciones</th>
+                         </tr>
+                       </thead>
+                       <tbody>
+                         <tr>
+                           <td>0001</td>
+                           <td>
+                             <a>wordpress.charliejsanchez.com</a>
+                             <br />
+                             <small>Created 08.05.2017</small>
+                           </td>
+                           <td>
+                             <button type="button" class="btn btn-danger btn-xs">Inactivo</button>
+                           </td>
+                           <td>
+                             <a href="#" class="btn btn-primary btn-xs"><i class="fa fa-globe"></i> Abrir </a>
+                             <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Borrar </a>
+                           </td>
+                         </tr>
+                         <tr>
+                           <td>0002</td>
+                           <td>
+                             <a>ftp.charliejsanchez.com</a>
+                             <br />
+                             <small>Created 08.05.2017</small>
+                           </td>
+                           <td>
+                             <button type="button" class="btn btn-success btn-xs">Activo</button>
+                           </td>
+                           <td>
+                             <a href="#" class="btn btn-primary btn-xs"><i class="fa fa-globe"></i> Abrir </a>
+                             <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Borrar </a>
+                           </td>
+                         </tr>
+                         <tr>
+                           <td>0003</td>
+                           <td>
+                             <a>mysql.charliejsanchez.com</a>
+                             <br />
+                             <small>Created 08.05.2017</small>
+                           </td>
+                           <td>
+                             <button type="button" class="btn btn-success btn-xs">Activo</button>
+                           </td>
+                           <td>
+                             <a href="#" class="btn btn-primary btn-xs"><i class="fa fa-globe"></i> Abrir </a>
+                             <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Borrar </a>
+                           </td>
+                         </tr>
+                       </tbody>
+                     </table>
+                     <!-- end project list -->
+
+                   </div>
+                 </div>
+               </div>
+
+              <!-- Finish Subdomains -->
+              <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>Notificaciones</h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                      </li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="#">Settings 1</a>
+                          </li>
+                          <li><a href="#">Settings 2</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+                    <ul class="list-unstyled timeline">
+                      <li>
+                        <div class="block">
+                          <div class="tags">
+                            <a href="" class="tag">
+                              <span>Entertainment</span>
+                            </a>
+                          </div>
+                          <div class="block_content">
+                            <h2 class="title">
+                                            <a>Se ha dado de alta el usuario X</a>
+                                        </h2>
+                            <div class="byline">
+                              <span>13 hours ago</span> by <a>Admin</a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="block">
+                          <div class="tags">
+                            <a href="" class="tag">
+                              <span>Entertainment</span>
+                            </a>
+                          </div>
+                          <div class="block_content">
+                            <h2 class="title">
+                                            <a>Who Needs Sundance When You’ve Got&nbsp;Crowdfunding?</a>
+                                        </h2>
+                            <div class="byline">
+                              <span>13 hours ago</span> by <a>Jane Smith</a>
+                            </div>
+                            <p class="excerpt">Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and… <a>Read&nbsp;More</a>
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="block">
+                          <div class="tags">
+                            <a href="" class="tag">
+                              <span>Entertainment</span>
+                            </a>
+                          </div>
+                          <div class="block_content">
+                            <h2 class="title">
+                                            <a>Who Needs Sundance When You’ve Got&nbsp;Crowdfunding?</a>
+                                        </h2>
+                            <div class="byline">
+                              <span>13 hours ago</span> by <a>Jane Smith</a>
+                            </div>
+                            <p class="excerpt">Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and… <a>Read&nbsp;More</a>
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+
                   </div>
                 </div>
               </div>

@@ -29,9 +29,14 @@
           </li>
           <li><a><i class="fa fa-cogs"></i> Ajustes <span class="fa fa-chevron-down"></span></a>
             <ul class="nav child_menu">
-              <li><a href="form.html">General Form</a></li>
-              <li><a href="form_advanced.html">Advanced Components</a></li>
-              <li><a href="form_validation.html">Form Validation</a></li>
+              <li><a href="form.html">Cambiar contraseña</a></li>
+              <li><a href="form_advanced.html">Credenciales MySQL</a></li>
+              <li><a href="form_validation.html">Credenciales </a></li>
+            </ul>
+          </li>
+          <li><a><i class="fa fa-globe"></i> Subdominions <span class="fa fa-chevron-down"></span></a>
+            <ul class="nav child_menu">
+              <li><a href="#">Añadir subdominio</a></li>
             </ul>
           </li>
           <li><a><i class="fa fa-desktop"></i> Paneles <span class="fa fa-chevron-down"></span></a>
