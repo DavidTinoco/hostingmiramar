@@ -3,10 +3,11 @@ import manager
 import MySQLdb as mariadb
 from bottle import route,run,get,template,request,static_file,response,redirect,app,debug,abort,error
 from beaker.middleware import SessionMiddleware
+import session
 
 session_opts = {
     'session.type': 'memory',
-    'session.cookie_expires': 1200,
+    'session.cookie_expires': 1600,
     'session.auto': True
 }
 
@@ -26,9 +27,26 @@ def register():
 def logged():
     return template('views/index.tpl')
 
+@route('/logout')
+def logout():
+ session.deletecoockie()
+ redirect('/')
+
 @route('/contrato')
 def contrato():
     return template('views/contrato.tpl')
+
+@route('/chpassword')
+def plain():
+    return template('views/chpassword.tpl')
+
+@route('/credenmysql')
+def plain():
+    return template('views/credenmysql.tpl')
+
+@route('/addsubdomain')
+def plain():
+    return template('views/addsubdomain.tpl')
 
 # Static files
 @route('/static/<filepath:path>')
