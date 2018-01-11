@@ -24,9 +24,9 @@ def adduser(user,password,domain):
     attrs['homeDirectory'] = '/srv/ftp/' + user
     attrs['loginShell'] = '/bin/bash'
     attrs['userPassword'] = '{SSHA}yZ7g3Q2z7Ej1Ad3d3bia4fkKdqHWi4S0'
-    attrs['sn'] = 'surname'
-    attrs['mail'] = 'prueba@localhost'
-    attrs['givenName'] = 'prueba'
+    attrs['sn'] = domain
+    attrs['mail'] = user + '@localhost'
+    attrs['givenName'] = user
 
 
     # Convert our dict to nice syntax for the add-function using modlist-module
