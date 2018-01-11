@@ -26,6 +26,10 @@ def register():
 def logged():
     return template('views/index.tpl')
 
+@route('/contrato')
+def contrato():
+    return template('views/contrato.tpl')
+
 # Static files
 @route('/static/<filepath:path>')
 def server_static(filepath):

@@ -1,84 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+  % include('head.tpl',title='Login | Miramar')
 
-% include('header.tpl', title='Login')
+  <body class="login">
+    <div>
+      <a class="hiddenanchor" id="signup"></a>
+      <a class="hiddenanchor" id="signin"></a>
 
-  <body>
+      <div class="login_wrapper">
+        <div class="animate form login_form">
+          <section class="login_content">
+            <form action="/index">
+              <h1>Formulario de Inicio</h1>
+              <div>
+                <input type="text" class="form-control" placeholder="Usuario" required="" />
+              </div>
+              <div>
+                <input type="password" class="form-control" placeholder="Password" required="" />
+              </div>
+              <div>
+                <a class="btn btn-default submit" href="/index">Entrar</a>
+                <a class="reset_pass" href="#">¿Has olvidado la contraseña?</a>
+              </div>
 
-      <!-- **********************************************************************************************************************************************************
-      MAIN CONTENT
-      *********************************************************************************************************************************************************** -->
+              <div class="clearfix"></div>
 
-	  <div id="login-page">
-	  	<div class="container">
+              <div class="separator">
+                <p class="change_link">¿Eres nuevo?
+                  <a href="#signup" class="to_register"> Crear Cuenta </a>
+                </p>
 
-		      <form class="form-login" action="/index">
-		        <h2 class="form-login-heading">sign in now</h2>
-		        <div class="login-wrap">
-		            <input type="text" class="form-control" placeholder="User ID" autofocus>
-		            <br>
-		            <input type="password" class="form-control" placeholder="Password">
-		            <label class="checkbox">
-		                <span class="pull-right">
-		                    <a data-toggle="modal" href="login.html#myModal"> Forgot Password?</a>
+                <div class="clearfix"></div>
+                <br />
 
-		                </span>
-		            </label>
-		            <button class="btn btn-theme btn-block" href="index.html" type="submit"><i class="fa fa-lock"></i> SIGN IN</button>
-		            <hr>
+                <div>
+                  <h1><i class="fa fa-eye"></i> Hosting Miramar</h1>
+                  <p>©2018 All Rights Reserved. Hosting Miramar - Privacy and Terms</p>
+                </div>
+              </div>
+            </form>
+          </section>
+        </div>
 
-		            <div class="login-social-link centered">
-		            <p>or you can sign in via your social network</p>
-		                <button class="btn btn-facebook" type="submit"><i class="fa fa-facebook"></i> Facebook</button>
-		                <button class="btn btn-twitter" type="submit"><i class="fa fa-twitter"></i> Twitter</button>
-		            </div>
-		            <div class="registration">
-		                Don't have an account yet?<br/>
-		                <a class="" href="/register">
-		                    Create an account
-		                </a>
-		            </div>
+        <div id="register" class="animate form registration_form">
+          <section class="login_content">
+            <form>
+              <h1>Registro</h1>
+              <div>
+                <input type="text" class="form-control" placeholder="Usuario" required="" />
+              </div>
+              <div>
+                <input type="text" class="form-control" placeholder="Dominio" required="" />
+              </div>
+              <div>
+                <input type="password" class="form-control" placeholder="Password" required="" />
+              </div>
+              <div>
+                <input type="password" class="form-control" placeholder="Re-Password" required="" />
+              </div>
+              <div>
+                <a class="btn btn-default submit" href="index.html">Darse de alta</a>
+              </div>
 
-		        </div>
+              <div class="clearfix"></div>
 
-		          <!-- Modal -->
-		          <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal" class="modal fade">
-		              <div class="modal-dialog">
-		                  <div class="modal-content">
-		                      <div class="modal-header">
-		                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-		                          <h4 class="modal-title">Forgot Password ?</h4>
-		                      </div>
-		                      <div class="modal-body">
-		                          <p>Enter your e-mail address below to reset your password.</p>
-		                          <input type="text" name="email" placeholder="Email" autocomplete="off" class="form-control placeholder-no-fix">
+              <div class="separator">
+                <p class="change_link">¿Ya eres miembro?
+                  <a href="#signin" class="to_register"> Entrar </a>
+                </p>
 
-		                      </div>
-		                      <div class="modal-footer">
-		                          <button data-dismiss="modal" class="btn btn-default" type="button">Cancel</button>
-		                          <button class="btn btn-theme" type="button">Submit</button>
-		                      </div>
-		                  </div>
-		              </div>
-		          </div>
-		          <!-- modal -->
+                <div class="clearfix"></div>
+                <br />
 
-		      </form>
-
-	  	</div>
-	  </div>
-
-    <!-- js placed at the end of the document so the pages load faster -->
-    <script src="static/assets/js/jquery.js"></script>
-    <script src="static/assets/js/bootstrap.min.js"></script>
-
-    <!--BACKSTRETCH-->
-    <!-- You can use an image of whatever size. This script will stretch to fit in any screen size.-->
-    <script type="text/javascript" src="static/assets/js/jquery.backstretch.min.js"></script>
-    <script>
-        $.backstretch("static/assets/img/login-bg.jpg", {speed: 500});
-    </script>
-
-
+                <div>
+                  <h1><i class="fa fa-eye"></i> Hosting Miramar</h1>
+                  <p>©2018 All Rights Reserved. Hosting Miramar - Privacy and Terms</p>
+                </div>
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
