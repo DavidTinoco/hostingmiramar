@@ -15,7 +15,7 @@
           <div class="">
             <div class="page-title">
               <div class="title_left">
-                <h3>Widget Designs</h3>
+                <h3>Panel de Control</h3>
               </div>
 
               <div class="title_right">
@@ -170,6 +170,8 @@
                          </tr>
                        </tbody>
                      </table>
+
+                     <a href="/addsubdomain" class="btn btn-success btn-xs"><i class="fa fa-globe"></i> Nuevo Subdominio </a>
                      <!-- end project list -->
 
                    </div>

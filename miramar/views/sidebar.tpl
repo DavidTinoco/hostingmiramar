@@ -29,14 +29,14 @@
           </li>
           <li><a><i class="fa fa-cogs"></i> Ajustes <span class="fa fa-chevron-down"></span></a>
             <ul class="nav child_menu">
-              <li><a href="form.html">Cambiar contraseña</a></li>
-              <li><a href="form_advanced.html">Credenciales MySQL</a></li>
-              <li><a href="form_validation.html">Credenciales </a></li>
+              <li><a href="/chpassword">Cambiar contraseña</a></li>
+              <li><a href="/credenmysql">Credenciales MySQL</a></li>
+              <li><a href="#">Credenciales </a></li>
             </ul>
           </li>
           <li><a><i class="fa fa-globe"></i> Subdominions <span class="fa fa-chevron-down"></span></a>
             <ul class="nav child_menu">
-              <li><a href="#">Añadir subdominio</a></li>
+              <li><a href="/addsubdomain">Añadir subdominio</a></li>
             </ul>
           </li>
           <li><a><i class="fa fa-desktop"></i> Paneles <span class="fa fa-chevron-down"></span></a>
@@ -51,6 +51,7 @@
           </li>
         </ul>
       </div>
+      <!--
       <div class="menu_section">
         <h3>Live On</h3>
         <ul class="nav side-menu">
@@ -66,6 +67,7 @@
           </li>
         </ul>
       </div>
+      -->
 
     </div>
     <!-- /sidebar menu -->
