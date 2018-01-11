@@ -4,10 +4,10 @@ import commands
 
 def adduser(user,password,domain):
     # Open a connection
-    l = ldap.initialize("ldap://172.22.200.249")
+    l = ldap.initialize("ldap://172.22.200.146")
 
     # Bind/authenticate with a user with apropriate rights to add objects
-    l.simple_bind_s("cn=admin,dc=miramar,dc=gonzalonazareno,dc=org","erangel")
+    l.simple_bind_s("cn=admin,dc=miramar,dc=gonzalonazareno,dc=org","miramar")
 
     # The dn of our new entry/object
     dn="cn=prueba,dc=miramar,dc=gonzalonazareno,dc=org"
